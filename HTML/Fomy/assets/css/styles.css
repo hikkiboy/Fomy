@@ -147,12 +147,12 @@ body {
 }
 
 ::selection {
-  background: #4da6e7;
+  background: green;
   color: #fff !important;
 }
 
 ::-moz-selection {
-  background: #4da6e7;
+  background: green;
   color: #fff !important;
 }
 
@@ -172,10 +172,6 @@ body {
   }
 }
 
-.logoFomy {
-  width: 25%;
-}
-
 .page-section {
   margin-top: 120px;
 }
@@ -188,7 +184,7 @@ body {
 .section-heading h6 {
   font-size: 15px;
   font-weight: 700;
-  color: #4da6e7;
+  color: green;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
@@ -203,20 +199,20 @@ body {
 
 .section-heading h4 em {
   font-style: normal;
-  color: #4da6e7;
+  color: green;
 }
 
 .section-heading .line-dec {
   width: 50px;
   height: 2px;
-  background-color: #4da6e7;
+  background-color: green;
 }
 
 .border-first-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #4da6e7 !important;
-  border: 1px solid #4da6e7 !important;
+  color: green !important;
+  border: 1px solid green !important;
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
@@ -224,7 +220,7 @@ body {
 }
 
 .border-first-button a:hover {
-  background-color: #4da6e7;
+  background-color: green;
   color: #fff !important;
 }
 
@@ -257,7 +253,7 @@ header
 }
 
 .pre-header ul.info li a:hover {
-  color: #4da6e7;
+  color: green;
 }
 
 .pre-header ul.info li a i {
@@ -287,12 +283,12 @@ header
 }
 
 .pre-header ul.social-media li a:hover {
-  background-color: #4da6e7;
+  background-color: green;
 }
 
 .background-header {
   background-color: #fff!important;
-  height: 80px!important;
+  height: 140px!important;
   position: fixed!important;
   top: 0px;
   left: 0px;
@@ -306,7 +302,7 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #4da6e7;
+  color: green;
 }
 
 .background-header .nav li a.active {
@@ -318,7 +314,7 @@ header
   position: absolute;
   width: 100%;
   height: 1px;
-  background-color: #4da6e7;
+  background-color: green;
   content: '';
   left: 50%;
   bottom: -20px;
@@ -336,7 +332,7 @@ header
   left: 0px;
   right: 0px;
   z-index: 100;
-  height: 100px;
+  height: 170px;
   -webkit-transition: all .5s ease 0s;
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
@@ -425,12 +421,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #4da6e7!important;
+  color: green!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #4da6e7!important;
+  color: green!important;
   opacity: 1;
 }
 
@@ -492,7 +488,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #4da6e7!important;
+  color: green!important;
   padding-left: 25px;
 }
 
@@ -632,7 +628,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #4da6e7;
+  color: green;
 }
 
 @media (max-width: 1200px) {
@@ -671,7 +667,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #4da6e7!important;
+    color: green!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -733,7 +729,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #4da6e7!important;
+    color: green!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -847,7 +843,7 @@ preloader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #4da6e7;
+    background: green;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -870,7 +866,7 @@ preloader
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    background: #4da6e7;
+    background: green;
     border-radius: 50%;
 }
 
@@ -923,7 +919,7 @@ Banner Style
   text-transform: capitalize;
   font-size: 20px;
   font-weight: 700;
-  color: #4da6e7;
+  color: green;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
@@ -1029,7 +1025,7 @@ About Style
 }
 
 .first-skill-item .progress .progress-bar {
-  border-color: #4da6e7;
+  border-color: green;
 }
 
 .second-skill-item .progress .progress-bar {
@@ -1373,7 +1369,7 @@ Services Style
 .services .left-text h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #4da6e7 !important;
+  color: green !important;
 }
 
 .services .left-text p {
@@ -1459,7 +1455,7 @@ Free Quote
   outline: none;
   border: none;
   margin-left: 30px;
-  background-color: #4da6e7;
+  background-color: green;
   font-size: 15px;
   color: #fff;
 }
@@ -1530,7 +1526,7 @@ Portfolio
 
 .portfolio-item:hover .down-content h4,
 .portfolio-item:hover .down-content span {
-  color: #4da6e7;
+  color: green;
 }
 
 .portfolio-item .thumb img {
@@ -1588,7 +1584,7 @@ Portfolio
 
 .our-portfolio .owl-nav span:hover {
   color: #fff;
-  background-color: #4da6e7;
+  background-color: green;
 }
 
 
@@ -1652,7 +1648,7 @@ Blog
   font-size: 15px;
   color: #fff;
   padding: 8px 12px;
-  background-color: #4da6e7;
+  background-color: green;
   border-radius: 18px;
   display: inline-block;
 }
@@ -1725,7 +1721,7 @@ Blog
   font-size: 15px;
   color: #fff;
   padding: 8px 12px;
-  background-color: #4da6e7;
+  background-color: green;
   border-radius: 18px;
   display: inline-block;
 }
@@ -1846,7 +1842,7 @@ form#contact #map iframe {
 }
 
 .fill-form .icon:hover a {
-  color: #4da6e7;
+  color: green;
 }
 
 form#contact input {
@@ -1894,20 +1890,20 @@ form#contact button {
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
-  color: #4da6e7;
+  color: green;
   margin-top: 30px;
   width: 100%;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
   letter-spacing: 0.25px;
-  border: 1px solid #4da6e7;
+  border: 1px solid green;
   transition: all .3s;
   outline: none;
 }
 
 form#contact button:hover {
-  background-color: #4da6e7!important;
+  background-color: green!important;
   color: #fff!important;
 }
 
@@ -2104,4 +2100,8 @@ responsive
   form#contact {
     padding: 30px;
   }
+  .alberto{
+    width: auto;
+  }
+
 }
