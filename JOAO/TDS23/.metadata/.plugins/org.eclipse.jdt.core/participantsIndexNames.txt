@@ -1,0 +1,7 @@
+INDEX VERSION 1.134
+C:\Users\3262.343\Desktop\TDS23\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1762439521.index
+\EsolaFu\br.com.escola.entidade
+C:\Users\3262.343\Desktop\TDS23\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\723168237.index
+\EsolaFu\br.com.escola.entidade
+C:\Users\3262.343\Desktop\TDS23\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\863453975.index
+\EscolaFullCat\src\main\java
