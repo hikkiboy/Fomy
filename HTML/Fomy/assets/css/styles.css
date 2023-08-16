@@ -960,7 +960,9 @@ About Style
 */
 
 #about {
-  padding-top: 100px;
+  background-image: url(../images/slider-right-dec.jpg);
+  background-repeat: no-repeat;
+  padding-top: 70px;
   padding-bottom: 50px;
 }
 
