@@ -147,12 +147,12 @@ body {
 }
 
 ::selection {
-  background: green;
+  background: #7EB77F;
   color: #fff !important;
 }
 
 ::-moz-selection {
-  background: green;
+  background: #7EB77F;
   color: #fff !important;
 }
 
@@ -199,20 +199,20 @@ body {
 
 .section-heading h4 em {
   font-style: normal;
-  color: green;
+  color: #7EB77F;
 }
 
 .section-heading .line-dec {
   width: 50px;
   height: 2px;
-  background-color: green;
+  background-color: #7EB77F;
 }
 
 .border-first-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: green !important;
-  border: 1px solid green !important;
+  color: #7EB77F !important;
+  border: 1px solid #7EB77F !important;
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
@@ -220,7 +220,7 @@ body {
 }
 
 .border-first-button a:hover {
-  background-color: green;
+  background-color: #7EB77F;
   color: #fff !important;
 }
 
@@ -253,7 +253,7 @@ header
 }
 
 .pre-header ul.info li a:hover {
-  color: green;
+  color: #7EB77F;
 }
 
 .pre-header ul.info li a i {
@@ -283,12 +283,12 @@ header
 }
 
 .pre-header ul.social-media li a:hover {
-  background-color: green;
+  background-color: #7EB77F;
 }
 
 .background-header {
   background-color: #fff!important;
-  height: 140px!important;
+  height: 80px!important;
   position: fixed!important;
   top: 0px;
   left: 0px;
@@ -302,7 +302,7 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: green;
+  color: #7EB77F;
 }
 
 .background-header .nav li a.active {
@@ -314,7 +314,7 @@ header
   position: absolute;
   width: 100%;
   height: 1px;
-  background-color: green;
+  background-color: #7EB77F;
   content: '';
   left: 50%;
   bottom: -20px;
@@ -332,7 +332,7 @@ header
   left: 0px;
   right: 0px;
   z-index: 100;
-  height: 170px;
+  height: 100px;
   -webkit-transition: all .5s ease 0s;
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
@@ -421,12 +421,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: green!important;
+  color: #7EB77F!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: green!important;
+  color: #7EB77F!important;
   opacity: 1;
 }
 
@@ -488,7 +488,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: green!important;
+  color: #7EB77F!important;
   padding-left: 25px;
 }
 
@@ -628,7 +628,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: green;
+  color: #7EB77F;
 }
 
 @media (max-width: 1200px) {
@@ -667,7 +667,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: green!important;
+    color: #7EB77F!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -729,7 +729,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: green!important;
+    color: #7EB77F!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -843,7 +843,7 @@ preloader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: green;
+    background: #7EB77F;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -866,7 +866,7 @@ preloader
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    background: green;
+    background: #7EB77F;
     border-radius: 50%;
 }
 
@@ -919,7 +919,7 @@ Banner Style
   text-transform: capitalize;
   font-size: 20px;
   font-weight: 700;
-  color: green;
+  color: #7EB77F;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
@@ -947,6 +947,10 @@ Banner Style
 .main-banner .right-image img {
   max-width: 593px;
 }
+.alberto{
+  width: 130px;
+}
+
 
 
 
@@ -1025,7 +1029,7 @@ About Style
 }
 
 .first-skill-item .progress .progress-bar {
-  border-color: green;
+  border-color: #7EB77F;
 }
 
 .second-skill-item .progress .progress-bar {
@@ -1369,7 +1373,7 @@ Services Style
 .services .left-text h4 {
   font-size: 20px;
   font-weight: 700;
-  color: green !important;
+  color: #7EB77F !important;
 }
 
 .services .left-text p {
@@ -1455,7 +1459,7 @@ Free Quote
   outline: none;
   border: none;
   margin-left: 30px;
-  background-color: green;
+  background-color: #7EB77F;
   font-size: 15px;
   color: #fff;
 }
@@ -1487,7 +1491,7 @@ Portfolio
 
 .our-portfolio:after {
   content: '';
-  background-image: url(../images/portfolio-left-dec.jpg);
+  background-image: url(../images/blog-left-dec.jpg);
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -1526,7 +1530,7 @@ Portfolio
 
 .portfolio-item:hover .down-content h4,
 .portfolio-item:hover .down-content span {
-  color: green;
+  color: #7EB77F;
 }
 
 .portfolio-item .thumb img {
@@ -1584,7 +1588,7 @@ Portfolio
 
 .our-portfolio .owl-nav span:hover {
   color: #fff;
-  background-color: green;
+  background-color: #7EB77F;
 }
 
 
@@ -1648,7 +1652,7 @@ Blog
   font-size: 15px;
   color: #fff;
   padding: 8px 12px;
-  background-color: green;
+  background-color: #7EB77F;
   border-radius: 18px;
   display: inline-block;
 }
@@ -1721,7 +1725,7 @@ Blog
   font-size: 15px;
   color: #fff;
   padding: 8px 12px;
-  background-color: green;
+  background-color: #7EB77F;
   border-radius: 18px;
   display: inline-block;
 }
@@ -1842,7 +1846,7 @@ form#contact #map iframe {
 }
 
 .fill-form .icon:hover a {
-  color: green;
+  color: #7EB77F;
 }
 
 form#contact input {
@@ -1890,20 +1894,20 @@ form#contact button {
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
-  color: green;
+  color: #7EB77F;
   margin-top: 30px;
   width: 100%;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
   letter-spacing: 0.25px;
-  border: 1px solid green;
+  border: 1px solid #7EB77F;
   transition: all .3s;
   outline: none;
 }
 
 form#contact button:hover {
-  background-color: green!important;
+  background-color: #7EB77F!important;
   color: #fff!important;
 }
 
@@ -1924,7 +1928,7 @@ footer {
 footer p {
   text-align: center;
   margin: 20px 0px;
-  color: #fff;
+  color: black;
 }
 
 footer p a {
@@ -2100,8 +2104,4 @@ responsive
   form#contact {
     padding: 30px;
   }
-  .alberto{
-    width: auto;
-  }
-
 }
