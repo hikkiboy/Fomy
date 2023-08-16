@@ -124,7 +124,7 @@ ul {
 }
 
 p {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 30px;
   font-weight: 300;
   color: #afafaf;
@@ -184,7 +184,7 @@ body {
 .section-heading h6 {
   font-size: 15px;
   font-weight: 700;
-  color: green;
+  color: #7EB77F;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
@@ -889,7 +889,6 @@ Banner Style
 
 .main-banner:after {
   content: '';
-  background-image: url(../images/slider-left-dec.jpg);
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -961,7 +960,8 @@ About Style
 */
 
 #about {
-  padding-top: 130px;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .about-left-image img {
@@ -1479,7 +1479,7 @@ Portfolio
 
 .our-portfolio:before {
   content: '';
-  background-image: url(../images/portfolio-right-dec.jpg);
+  background-image: url(../images/slider-right-dec.jpg);
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
