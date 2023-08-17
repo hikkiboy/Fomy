@@ -1693,7 +1693,7 @@ Blog
 
 .blog-post .down-content .border-first-button {
   display: inline-block;
-  float: right;
+  /*float: right;*/
 }
 
 .blog-posts {
@@ -1710,7 +1710,7 @@ Blog
 
 .post-item .thumb {
   display: inline-block;
-  float: left;
+  /*float: left;*/
   margin-right: 30px;
 }
 
@@ -2106,4 +2106,65 @@ responsive
   form#contact {
     padding: 30px;
   }
+
+  .carousel-container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px; /* Adjust the width as needed */
+  max-height: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  flex: 0 0 100%; /* Each slide occupies the full width of the container */
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+/* Optional: Add navigation buttons */
+.carousel-container .prev,
+.carousel-container .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.carousel-container .prev {
+  left: 10px;
+}
+
+.carousel-container .next {
+  right: 10px;
+}
+
+/* Optional: Add indicators */
+.carousel-indicators {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.carousel-indicators button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ccc;
+  border: none;
+  margin: 0 6px;
+  cursor: pointer;
+}
+
+.carousel-indicators button.active {
+  background-color: #333;
+}
 }
