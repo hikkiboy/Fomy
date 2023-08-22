@@ -53,7 +53,7 @@ a:hover {
   overflow: hidden;
   padding: 50px;
   color: #ffffff;
-  border-radius: 3px;
+  border-radius: 15px;
   -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
@@ -103,7 +103,7 @@ a:hover {
 
 .social-login ul li a {
   background-color: #ffffff;
-  border-radius: 3px;
+  border-radius: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -133,8 +133,17 @@ a:hover {
   margin-right: 5px;
 }
 
-.social-login ul li a:hover {
-  background-color: #fff199;
+.social-login ul li.fb a:hover {
+  background-color: #6eacef;
+  color: #0e090e;
+  -webkit-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.social-login ul li.google a:hover {
+  background-color: #f68f92;
   color: #0e090e;
   -webkit-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
@@ -207,7 +216,7 @@ li.fb a::before {
   font-size: 16px;
   background: rgba(0, 0, 0, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 3px;
+  border-radius: 8px;
   margin-bottom: 15px;
   -webkit-transition: background 0.3s;
   transition: background 0.3s;
@@ -279,11 +288,11 @@ li.fb a::before {
 }
 
 .the-form [type="submit"] {
-  background: #ffb37b;
+  background: #fab151;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 18px;
   font-size: 20px;
-  border-radius: 3px;
+  border-radius: 8px;
   cursor: pointer;
   margin-top: 20px;
   color: black;
